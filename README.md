@@ -28,6 +28,7 @@ Yazılımı kullanmak için bir kuruluma gerek yoktur. Ancak aracı çalıştır
 Program tehditleri bu dosyadaki değerlere göre algılar. Proje ana dizinindeki rules.yaml dosyasını metin düzenleyici ile açıp alt alta kural ekleyebilirsiniz.
 
 **Örnek `rules.yaml` içeriği:**
+
 #kurallar listesi
 rules:
   - failed password

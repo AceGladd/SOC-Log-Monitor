@@ -49,9 +49,11 @@ docker build -t altay-soc .
 ### 2. Konteyneri Başlatın: Bulunduğunuz dizindeki logların okunabilmesi ve dosyalara erişilebilmesi için aşağıdak sisteminize uygun olan komutu kullanın:
 
 * **Windows:**
+
 docker run -it --rm -v ${PWD}:/app altay-soc
 
 * **Linux:**
+
 docker run -it --rm -v $(pwd):/app altay-soc
 
 

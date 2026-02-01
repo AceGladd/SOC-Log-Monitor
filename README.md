@@ -52,6 +52,7 @@ docker build -t altay-soc .
 
 docker run -it --rm -v ${PWD}:/app altay-soc
 
+
 * **Linux:**
 
 docker run -it --rm -v $(pwd):/app altay-soc

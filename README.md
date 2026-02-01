@@ -1,5 +1,5 @@
-# SOC-Log-Monitor
-ALTAY SOC Analiz Aracı 🛡️
+# ALTAY SOC Analiz Aracı 🛡️
+
 Bu proje, C# tabanlı geliştirilmiş basit bir log analiz ve tehdit tespit yazılımıdır. Sistem, sunucu loglarındaki şüpheli aktiviteleri kolayca tespit ederek uyarı şeklinde bildirir. Yazılım, log dosyalarını belirlenen kurallara göre tarar ve sonuçları raporlar.
 
 

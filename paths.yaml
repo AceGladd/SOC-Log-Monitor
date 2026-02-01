@@ -1,0 +1,4 @@
+/var/log/auth.log
+/var/log/syslog
+nginx/access.log
+ufw.log

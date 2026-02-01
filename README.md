@@ -44,15 +44,15 @@ Programı çalıştırdığınız zaman menüden “3” tuşuna basarak log dos
 Projeyi Docker konteyneri içinde izole bir şekilde çalıştırabilirsiniz.
 
 ### 1. İmajı Oluşturun: Terminali proje klasöründe açın ve şu komutu girin:
-* docker build -t altay-soc .
+docker build -t altay-soc .
 
 ### 2. Konteyneri Başlatın: Bulunduğunuz dizindeki logların okunabilmesi ve dosyalara erişilebilmesi için aşağıdak sisteminize uygun olan komutu kullanın:
 
 * **Windows:**
-* docker run -it --rm -v ${PWD}:/app altay-soc
+docker run -it --rm -v ${PWD}:/app altay-soc
 
 * **Linux:**
-* docker run -it --rm -v $(pwd):/app altay-soc
+docker run -it --rm -v $(pwd):/app altay-soc
 
 
 ## 📊 Raporlama Sistemi
